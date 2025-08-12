@@ -1,29 +1,24 @@
 {
-      "extends": "./tsconfig.app.json",
-      "compilerOptions": {
-            "composite": true,
-            "esModuleInterop": true,
-            "allowSyntheticDefaultImports": true,
-            "module": "CommonJS",
-            "moduleResolution": "Node",
-            "verbatimModuleSyntax": false,
-            "moduleDetection": "auto",
-            "jsx": "react-jsx",
-            "types": [
-                  "jest",
-                  "node",
-                  "@testing-library/jest-dom",
-                  "vite/client"
-            ]
-      },
-      "include": [
-            "src",
-            "src/types/**/*.d.ts",
-            "jest.setup.ts",
-            "test",
-            "**/*.test.ts",
-            "**/*.test.tsx",
-            "**/*.spec.ts",
-            "**/*.spec.tsx"
-      ]
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "composite": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "verbatimModuleSyntax": false,
+    "moduleDetection": "auto",
+    "jsx": "react-jsx",
+    "types": ["jest", "node", "@testing-library/jest-dom", "vite/client"]
+  },
+  "include": [
+    "src",
+    "src/types/**/*.d.ts",
+    "jest.setup.ts",
+    "test",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
+  ]
 }
