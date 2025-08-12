@@ -1,0 +1,31 @@
+{
+    "greeting": "Hi, I'm AICook! Let's cook something.",
+    "inputs": {
+        "base": "Main ingredients",
+        "spices": "Spices",
+        "persons": "Persons",
+        "time": "Time you have"
+    },
+    "checks": {
+        "gen": "Generate AI recipe",
+        "add": "Add AI ingredients",
+        "cost": "Estimate average cost"
+    },
+    "buttons": {
+        "send": "Send",
+        "clear": "Clear",
+        "about": "About",
+        "viewYT": "View recipe on YouTube",
+        "viewAI": "View AI recipe",
+        "back": "Back"
+    },
+    "resultsTitle": "Here's what you can cook",
+    "modals": {
+        "noLinks": "No links available. You can view the AI recipe.",
+        "noAI": "Oops, sorry. Maybe add AI ingredients?"
+    },
+    "errors": {
+        "server": "Oops, the server is acting up, please try later",
+        "code": "Error code"
+    }
+}

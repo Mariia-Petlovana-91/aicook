@@ -1,0 +1,31 @@
+{
+    "greeting": "Cześć, jestem AICook! Zaraz coś ugotujemy.",
+    "inputs": {
+        "base": "Główne składniki",
+        "spices": "Przyprawy",
+        "persons": "Liczba osób",
+        "time": "Czas, którym dysponujesz"
+    },
+    "checks": {
+        "gen": "Wygeneruj przepis AI",
+        "add": "Dodaj składniki AI",
+        "cost": "Oblicz średni koszt"
+    },
+    "buttons": {
+        "send": "Wyślij",
+        "clear": "Wyczyść",
+        "about": "O programie",
+        "viewYT": "Zobacz przepis na YouTube",
+        "viewAI": "Zobacz przepis AI",
+        "back": "Wróć"
+    },
+    "resultsTitle": "Oto co możesz ugotować",
+    "modals": {
+        "noLinks": "Brak dostępnych linków. Możesz zobaczyć przepis AI.",
+        "noAI": "Ups, przepraszam. Może dodaj składniki AI?"
+    },
+    "errors": {
+        "server": "Ups, serwer znów szwankuje. Spróbuj ponownie później.",
+        "code": "Kod błędu"
+    }
+}
