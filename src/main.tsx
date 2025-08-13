@@ -5,7 +5,7 @@ import {Provider} from "react-redux"
 import {store} from "./redux/store.tsx"
 
 import "modern-normalize/modern-normalize.css"
-import "./index.css"
+import "./styles/index.css"
 import App from "./App.tsx"
 
 import "./i18n"
