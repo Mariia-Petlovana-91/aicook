@@ -4,8 +4,8 @@ import {BrowserRouter} from "react-router-dom"
 import {Provider} from "react-redux"
 import {store} from "./redux/store.tsx"
 
-import "modern-normalize/modern-normalize.css"
-import "./styles/index.css"
+import "./styles/tailwind.css"
+
 import App from "./App.tsx"
 
 import "./i18n"
